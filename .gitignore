@@ -1,0 +1,42 @@
+# Dépendances
+node_modules/
+.pnp
+.pnp.js
+
+# Build Astro
+dist/
+.astro/
+
+# Variables d'environnement — JAMAIS committer
+.env
+.env.local
+.env.*.local
+
+# Netlify
+.netlify/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archives et fichiers temporaires
+_Archive/
+_Temp/
+*.zip
+*.bak
+
+# Fichiers volumineux / médias source (ne pas versionner les assets bruts)
+Visuel/*.psd
+Visuel/*.ai
